@@ -26,5 +26,5 @@ function handleContactSubmit(e) {
   const body = encodeURIComponent(
     `Name: ${fname} ${lname}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nMessage:\n${message}`
   );
-  window.location.href = `mailto:info@bakerbuilderschch.co.nz?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:matt@bakerbuilderschch.co.nz?subject=${subject}&body=${body}`;
 }
